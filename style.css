@@ -1,0 +1,162 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    width: 700px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1), 0 5px 15px rgba(0,0,0,0.07);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+.container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="time"], input[type="datetime-local"], input[type="number"], input[type="file"], input[type="password"], input[type="search"], input[type="url"], input[type="range"], input[type="color"], input[type="image"], input[type="reset"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, input[type="date"]:focus, input[type="time"]:focus, input[type="datetime-local"]:focus, input[type="number"]:focus, input[type="file"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="url"]:focus, input[type="range"]:focus, input[type="color"]:focus, input[type="image"]:focus, input[type="reset"]:focus, textarea:focus, select:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0,123,255,0.3);
+}
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.radio-group {
+    margin-top: 5px;
+}
+.radio-group input[type="radio"] {
+    margin-right: 5px;
+}
+.radio-group label {
+    display: inline;
+    font-weight: normal;
+    margin-right: 15px;
+}
+.checkbox-group {
+    margin-top: 5px;
+}
+.checkbox-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+.checkbox-group label {
+    display: inline;
+    font-weight: normal;
+    margin-right: 15px;
+}
+button {
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+button:hover {
+    background: linear-gradient(135deg, #45a049 0%, #4CAF50 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    min-width: 1200px;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #000;
+}
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.view-container {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    width: 98%;
+    max-width: none;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1), 0 5px 15px rgba(0,0,0,0.07);
+    border: 1px solid rgba(255,255,255,0.2);
+    overflow-x: auto;
+}
+
+table a {
+    color: #007BFF;
+    text-decoration: none;
+}
+table a:hover {
+    text-decoration: underline;
+}
+
+.welcome-message {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 16px;
+}
+
+.footer-message {
+    text-align: center;
+    margin-top: 15px;
+    color: #666;
+    font-size: 14px;
+}
+
+.color {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.color input[type="color"] {
+    width: 60px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+#color_preview {
+    width: 60px;
+    height: 30px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: transparent;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
